@@ -45,6 +45,7 @@ function Install-VSCode-Extensions-In-WSL {
   wsl code --install-extension jock.svg;
   wsl code --install-extension bradlc.vscode-tailwindcss;
   wsl code --install-extension rangav.vscode-thunder-client;
+  wsl code --install-extension ms-python.python;
 }
 
 function Install-Volta-In-Ubuntu {
@@ -256,6 +257,9 @@ Install-Ubuntu-Package -PackageName "zsh";
 Install-Ubuntu-Package -PackageName "make";
 Install-Ubuntu-Package -PackageName "g++";
 Install-Ubuntu-Package -PackageName "gcc";
+Install-Ubuntu-Package -PackageName "venv";
+Install-Ubuntu-Package -PackageName "pyenv";
+Install-Ubuntu-Package -PackageName "pip";
 
 Set-Git-Configuration-In-Ubuntu;
 
