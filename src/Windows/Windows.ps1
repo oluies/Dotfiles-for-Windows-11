@@ -164,4 +164,4 @@ Set-SetAsBackground-To-Extended-ContextMenu;
 Disable-RecentlyOpenedItems-From-JumpList;
 Set-Power-Configuration;
 Set-Custom-Regional-Format;
-Rename-PC;
+#Rename-PC;
