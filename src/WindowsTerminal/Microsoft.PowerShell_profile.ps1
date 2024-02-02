@@ -8,7 +8,7 @@ Clear-Host;
 #                                  Oh my Posh!                                 #
 ################################################################################
 
-Import-Module "oh-my-posh";
+#Import-Module "oh-my-posh";
 Import-Module "posh-git";
 Import-Module "Terminal-Icons";
 Import-Module "PSReadLine";
