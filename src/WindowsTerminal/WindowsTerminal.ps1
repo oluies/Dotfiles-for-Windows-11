@@ -54,7 +54,7 @@ function Open-Close-WindowsTerminal {
   Stop-Process -Name "WindowsTerminal" -Force;
 }
 
-Install-Module -Name "oh-my-posh";
+choco install oh-my-posh;
 Install-Module -Name "posh-git" -Repository "PSGallery";
 Install-Module -Name "Terminal-Icons" -Repository "PSGallery";
 Install-Module -Name "PSWebSearch" -Repository "PSGallery";
